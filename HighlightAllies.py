@@ -9,7 +9,7 @@ def draw_threat_redux(self):
     old_draw_threat(self)
 
     lvl = self.get_display_level()
-    img = MAIN_MODULE.get_image(['ExampleMod', 'ally_highlight'])
+    img = MAIN_MODULE.get_image(['HighlightAllies', 'ally_highlight'])
     blit_area = (0, 0, SPRITE_SIZE, SPRITE_SIZE)
     to_blit = []
 
